@@ -1,0 +1,45 @@
+// Button components
+//
+// Styleguide components.button
+
+@import '@material/icon-button/mdc-icon-button';
+@import "@material/fab/mdc-fab";
+@import "@material/button/mdc-button";
+
+.button--rounded {
+  border-radius: 18px;
+}
+
+.button--marker {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.button--marker > span.material-icons {
+  margin-right: 8px;
+}
+@media only screen and (max-width: 599px) {
+  .mdc-button--unelevated > span.material-icons {
+    margin-right: 2px;
+  }
+}
+
+.button--flex > span.button__container {
+  align-items: center;
+  display: flex;
+  flex-flow: row;
+  height: 36px;
+  justify-content: center;
+}
+.button--flex > span.button__container > span.button__item:nth-child(1) {
+  flex: initial;
+}
+.button--flex > span.button__container > span.button__item:nth-child(2) {
+  flex: auto;
+}
+
+.mdc-icon-button.active {
+  background-color: lighten($mdc-theme-primary, 40%);
+  border-radius: 50%;
+  color: $mdc-theme-primary;
+  fill: $mdc-theme-primary;
+}
