@@ -3,9 +3,9 @@ My JavaScript components for web applications.
 
 # Requirements
 
-## Components
+## Button
 
-* __Button dependencies__
+* __Dependencies__
   * Material Design Components
     * _@material/icon-button_
       * Installing: `npm i --save-dev @material/icon-button`
