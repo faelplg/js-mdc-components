@@ -23,19 +23,19 @@
   }
 }
 
-.button--flex > span.button__container {
-  align-items: center;
-  display: flex;
-  flex-flow: row;
-  height: 36px;
-  justify-content: center;
-}
-.button--flex > span.button__container > span.button__item:nth-child(1) {
-  flex: initial;
-}
-.button--flex > span.button__container > span.button__item:nth-child(2) {
-  flex: auto;
-}
+// .button--flex > span.button__container {
+//   align-items: center;
+//   display: flex;
+//   flex-flow: row;
+//   height: 36px;
+//   justify-content: center;
+// }
+// .button--flex > span.button__container > span.button__item:nth-child(1) {
+//   flex: initial;
+// }
+// .button--flex > span.button__container > span.button__item:nth-child(2) {
+//   flex: auto;
+// }
 
 .mdc-icon-button.active {
   background-color: lighten($mdc-theme-primary, 40%);
