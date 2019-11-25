@@ -1,5 +1,40 @@
-@import "@material/top-app-bar/mdc-top-app-bar";
+.top-app-bar {
+  padding: 16px;
+  height: 64px;
+  z-index: 10;
+}
+/* --phone-only */
+@media only screen and (max-width: 599px) {
+  .top-app-bar {
+    height: 56px;
+  }
+}
+.top-app-bar--container-fix {
+  min-height: calc(100% - 64px);
+}
+/* --phone-only */
+@media only screen and (max-width: 599px) {
+  .top-app-bar--container-fix {
+    min-height: calc(100% - 56px);
+  }
+}
+/* --tablet-portrait-max */
+@media only screen and (max-width: 1199px) {
+  .top-app-bar {
+    padding: 8px;
+  }
+}
+.top-app-bar {
+  align-items: center;
+  display: flex;
+  flex-flow: row;
+}
+.top-app-bar--fixed {
+  position: sticky;
+  top: 0;
+}
 
-.mdc-top-app-bar.mdc-top-app-bar--relative {
-  position: relative;
+
+.top-app-bar > h1 {
+  font-size: 18px;
 }

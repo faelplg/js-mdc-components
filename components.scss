@@ -1,3 +1,7 @@
+// Material independent libs.
+@import '@material/elevation/mdc-elevation';
+
 @import './button/button.scss';
 @import './data-table/data-table.scss';
+@import './sidebar/sidebar.scss';
 @import './top-app-bar/top-app-bar.scss';
