@@ -1,11 +1,12 @@
 .sidebar {
-  width: 200px;
+  min-width: 200px;
   max-width: 300px;
 }
 /* --phone-only */
 @media only screen and (max-width: 599px) {
   .sidebar {
     width: 100vw;
+    min-width: unset;
     max-width: unset;
   }
 }
